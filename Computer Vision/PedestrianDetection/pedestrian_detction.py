@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 body_classifier = cv2.CascadeClassifier(r"haarcascade_fullbody.xml")
-cap = cv2.VideoCapture(r"D:\College\Courses\[FreeCourseSite.com] Udemy - Master Computer Vision™ OpenCV3 in Python & Machine Learning\0.Master OpenCV\images\walking.avi")
+cap = cv2.VideoCapture(r"walking.avi")
 while cap.isOpened():
     ret,frame = cap.read()
     frame = cv2.resize(frame,None,fx = 0.5, fy = 0.5,interpolation=cv2.INTER_LINEAR)
