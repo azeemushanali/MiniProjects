@@ -11,7 +11,7 @@ import numpy as np
 
 classifier = cv2.CascadeClassifier(r'haarcascade_car.xml')
 cap = cv2.VideoCapture('cars.avi')
-
+count=0
 while cap.isOpened():
     ret,frame = cap.read()
     if ret:
@@ -20,6 +20,8 @@ while cap.isOpened():
         for (x,y,w,h) in cars:
             cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,255),2)
             cv2.imshow("Cars",frame)
+            cv2.imwrite("./frames/frame%d.jpg" % count, frame)
+            count += 1
         if cv2.waitKey(1) == 13:
             break
     else:
