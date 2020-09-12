@@ -19,3 +19,7 @@ Facial Emotion Detection using Keras & Open CV
 - ![Linkedin](https://www.linkedin.com/in/azeemushan-ali)
 - ![Portfolio](https://www.azeemushanali.netlify.app)
 - ![Github](https://github.com/azeemushanali)
+
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/azeemushan-ali)
+&nbsp;
+[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/azeemushanali)
