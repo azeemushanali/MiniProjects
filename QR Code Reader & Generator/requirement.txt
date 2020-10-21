@@ -1,1 +1,4 @@
 qrcode
+pypng
+PyQRCode
+python-barcode
