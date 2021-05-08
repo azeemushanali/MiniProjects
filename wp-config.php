@@ -1,5 +1,4 @@
-echo "
-            <?php
+<?php
 
             define( 'DB_NAME', 'wordpress' );
 
