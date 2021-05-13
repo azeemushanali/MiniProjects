@@ -1,6 +1,6 @@
 <?php
-$servername = "db-assignment-solo-1.cdxhhswkgl8b.us-east-2.rds.amazonaws.com";
-$username = "admin";
+$servername = "db-link";
+$username = "root";
 $password = "root12345";
 
 // Create connection
